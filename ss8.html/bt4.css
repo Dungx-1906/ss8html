@@ -1,20 +1,18 @@
 .icon-box {
-    width: 80px; /* Kích thước hộp icon */
-    height: 80px; /* Kích thước hộp icon */
-    display: flex; /* Dùng flex để căn giữa icon */
-    justify-content: center; /* Căn giữa ngang */
-    align-items: center; /* Căn giữa dọc */
-    border: 2px solid #ddd; /* Viền màu xám nhạt */
-    border-radius: 10px; /* Bo góc nhẹ */
-    position: relative; /* Định vị tương đối */
-    transform: rotate(45deg); /* Xoay hộp icon thành hình thoi */
+    width: 80px; 
+    height: 80px; 
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    border: 2px solid #ddd; 
+    border-radius: 4px; 
+    position: relative; 
+    transform: rotate(45deg); 
 }
-
-/* --- ICON BÊN TRONG --- */
 .icon-box i {
-    font-size: 30px; /* Kích thước icon */
-    color: #d9534f; /* Màu đỏ nhạt */
-    transform: rotate(-45deg); /* Xoay icon ngược lại để nằm ngang */
+    font-size: 30px; 
+    color: #d9534f; 
+    transform: rotate(-45deg); 
 }
 hr{
     width: 250px;
