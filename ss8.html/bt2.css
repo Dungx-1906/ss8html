@@ -1,0 +1,31 @@
+*{
+    background-color: #50425f;
+    color: white;
+}
+.body{
+    display: flex;
+    align-items: center;
+}
+.head{
+    margin: 20px;
+}
+input{
+    margin: 10px 20px 0 0;
+    border: 1px solid gray;
+    height: 20px;
+}
+textarea{
+    width: 350px;
+    height: 100px;
+    margin: 10px 0;
+}
+button{
+    border: none;
+    background-color: white;
+    color: black;
+    padding: 15px 20px;
+    font-size: x-small;
+    font-weight: 700;
+    border-radius: 4px;
+    letter-spacing: 1px;
+}
